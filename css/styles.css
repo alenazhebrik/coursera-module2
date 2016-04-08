@@ -9,34 +9,76 @@
 }
 body {
     font-size: 0;
-    background-image: url("../img/1.png");
+ /*background-color: #92DCE0;
+ background-color: #699E87;*/
+ background-color: #32313B
 }
 h1 {
     padding-top: 40px;
     padding-bottom: 20px;
     text-align: center;
     font-size: 40px;
-    color:#95A990;
+    color:white;
 }
 
 
 #d1, #d2, #d3 {
-    border: 3px solid #95A990;
     position: relative;
     padding: 0 0 0.5em 0.5em;
     font-size: 14px;
     display: inline-block;
     margin-top: 1%;
+    background-color: white;
 
         }
-
-
-div > div {
-    background-color: #95A990;
-    
-    border: none;
+        #d1 {
+    border: 8px solid #EC408C;
+}
+#d2 {
+    border: 8px solid #39B2C7;
+}
+#d3 {
+    border: 8px solid #1FD26A;
 }
 
+
+#d1 > div {
+    background-color: #EC408C;
+    border: none;
+}
+#d2 > div {
+    background-color: #39B2C7;
+    border: none;
+}
+#d3 > div {
+    background-color: #1FD26A;
+    border: none;
+}
+/*        
+#d1 {
+    border: 5px solid #0092D7;
+}
+#d2 {
+    border: 5px solid #3EC303;
+}
+#d3 {
+    border: 5px solid #EE8D09;
+}
+
+
+#d1 > div {
+    background-color: #0092D7;
+    border: none;
+}
+#d2 > div {
+    background-color: #3EC303;
+    border: none;
+}
+#d3 > div {
+    background-color: #EE8D09;
+    border: none;
+}
+*/
 #name1, #name2, #name3 {
     position: absolute;
     right: 0;
@@ -46,6 +88,9 @@ div > div {
     text-align: center;
     font-size: 1.25em;
     font-size:18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;   t
         }
 
 #p1, #p2, #p3 {
